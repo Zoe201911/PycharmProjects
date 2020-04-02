@@ -104,3 +104,6 @@ print(b.cal_price())
 cp = CellPhone(2399)
 cp.discount = 0.85
 print(cp.cal_price())
+
+
+print(str.__bases__)
