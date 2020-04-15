@@ -1,0 +1,7 @@
+index,name,count
+0,Zoe,100
+1,Tom,99
+2,Lily,98
+3,Lucy,97
+4,Candy,99
+5,Tracy,93
