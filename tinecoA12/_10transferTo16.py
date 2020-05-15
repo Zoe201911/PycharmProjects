@@ -10,7 +10,7 @@ def transferNumber(str1):
     print(list1)
 
 if __name__ == '__main__':
-    list2 = ["06 07 09 0c 0c 0f 11 11","36 36 3c 3c 3f 48 48 48"]
+    list2 = ["03 03 04 06 09 0b 0d 0d"]
     list3 = ["36 36 3c 3c 3f 48 48 72"]
     for l in list2:
         transferNumber(l)
