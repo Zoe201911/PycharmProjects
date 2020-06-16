@@ -1,9 +1,9 @@
 import pandas as pd
 
 
-def convertPhone(phoneMode,phoneName):
-    pMdDataA = getAExcelData(phoneMode,'设备型号','名称')
-    pNdCountListB, pNdCountTypeListB, pNdListB = getBExcelData(phoneName,'手机型号','总量','手机系统版本号')
+def convertPhone(phoneMode,phoneName,sheetname):
+    pMdDataA = getAExcelData(phoneMode,'工作表1','设备型号','名称')
+    pNdCountListB, pNdCountTypeListB, pNdListB = getBExcelData(phoneName,sheetname,'手机型号','总量','手机系统版本号')
     dataDict = convertABcolumn(pMdDataA, pNdListB)
     dataDcitConvert = getExcelABconnect(dataDict, pNdCountListB, pNdCountTypeListB,'手机型号','手机名称','总数量','手机系统版本号')
     getNewExcel(dataDcitConvert)
@@ -53,14 +53,14 @@ def getExcelABconnect(dataDict, pNdCountListB, pNdCountTypeListB,*args):
     return dataDcitConvert
 
 
-def getBExcelData(phoneName,*args):
+def getBExcelData(phoneName,sheetname,*args):
     """
     获取Excel B需要的数据内容
     :param phoneName: excel B的名称
     :param args: Excel的列名称
     :return:
     """
-    pNdB = pd.read_excel(phoneName)
+    pNdB = pd.read_excel(phoneName,sheet_name=sheetname)
     pNdDataNdarryB = pNdB.loc[:, args[0]].values
     pNdListB = pNdDataNdarryB.tolist()
     if len(args)>=2:
@@ -73,14 +73,14 @@ def getBExcelData(phoneName,*args):
 
 
 
-def getAExcelData(phoneMode,*args):
+def getAExcelData(phoneMode,sheetname,*args):
     """
     获取主Excel的数据内容
     :param phoneMode: Excel名称
-    :param args: excel 列明
+    :param args: excel 列名
     :return:
     """
-    pMdA = pd.read_excel(phoneMode)
+    pMdA = pd.read_excel(phoneMode,sheet_name=sheetname)
     pMdDataNdarrayA = pMdA.loc[:,[args[0],args[1]]].values
     pMdDataA = dict(pMdDataNdarrayA)
     # print(pMdDataA)
@@ -88,6 +88,6 @@ def getAExcelData(phoneMode,*args):
 
 
 if __name__ == '__main__':
-        convertPhone("国际手机型号对应表.xlsx","国际手机登录.xlsx")
+        convertPhone("国际手机型号对应表.xlsx","手机.xlsx",'IOS')
 
 
