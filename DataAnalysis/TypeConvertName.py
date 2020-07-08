@@ -43,6 +43,9 @@ class TypeConvertName:
             elif i == 'FLOOR ONE M':
                 dataType['mnee8b'] += dataType['FLOOR ONE M']
                 del (dataType['FLOOR ONE M'])
+            elif i == 'FLOOR ONE':
+                dataType['9rotkh'] += dataType['FLOOR ONE']
+                del(dataType['FLOOR ONE'])
             elif i == '星悦P1':
                 dataType['04l3g3'] += dataType['星悦P1']
                 del (dataType['星悦P1'])
@@ -61,7 +64,7 @@ class TypeConvertName:
 def setNewConvert():
     global pdSheet0
     tcn01 = TypeConvertName('fileExcel/机器类型名称匹配表.xlsx')
-    tcn02 = TypeConvertName('fileExcel/123.xlsx')
+    tcn02 = TypeConvertName('fileExcel/机器type绑定量.xlsx')
     listType = tcn02.getTypeData('机器类型')  # 获取机器类型
     listName = tcn01.getNameList(listType)  # 获取机器类型对应的名称
     dictData = tcn02.dealWithData()  # 获取到123表中的数据整合
@@ -82,7 +85,7 @@ def drawChart():
 
     pyplot.xlim(-1, 15)
     # 设置y轴从0开始
-    pyplot.ylim(0,3800)
+    pyplot.ylim(0,7700)
     pyplot.xticks(fontproperties=my_font, rotation=45,size=7)  # x轴标签45度倾斜
     pyplot.xlabel('机器名称', fontproperties=my_font)
     pyplot.ylabel('总数量', fontproperties=my_font)

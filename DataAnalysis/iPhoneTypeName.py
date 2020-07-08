@@ -31,7 +31,7 @@ def getNewExcel(dataDcitConvert):
     :param dataDcitConvert:
     :return:
     """
-    with pd.ExcelWriter('iPhone123.xlsx') as writer:
+    with pd.ExcelWriter('fileExcel/PhoneTypeConvertName.xlsx') as writer:
         dataDcitConvert.to_excel(writer, sheet_name='工作表1')
     writer.save()
 
@@ -88,6 +88,6 @@ def getAExcelData(phoneMode,sheetname,*args):
 
 
 if __name__ == '__main__':
-        convertPhone("国际手机型号对应表.xlsx","手机.xlsx",'IOS')
+        convertPhone("fileExcel/国际手机型号对应表.xlsx","fileExcel/手机.xlsx",'总占比')
 
 
