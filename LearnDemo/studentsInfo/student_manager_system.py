@@ -8,6 +8,10 @@
 5、添加学生方法 add_student
 6、根据编号删除学生信息remove_student
 7、根据编号修改学生信息modify_student
+
+View         Model         Controller
+界面         数据            业务逻辑
+变化         载体            变化
 """
 class StudentModel:
     """
@@ -208,6 +212,10 @@ class StudentManagerView:
                 print('删除失败')
 
     def __modify_student(self):
+        """
+        根据学生ID修改学生信息
+        :return:
+        """
         id  = int(input("请输入学生ID："))
         name = input("请输入学生姓名：")
         age = int(input("请输入学生年龄："))
@@ -216,6 +224,12 @@ class StudentManagerView:
         self.__manager.update_student(stu)
 
     def __sort_scores(self,stu_list):
+        """
+        根据学生分数进行排序
+        :param stu_list:
+        :return:
+        """
+
         list_socre = []
         for item in stu_list:
             list_socre.append(item.scores)
@@ -223,6 +237,12 @@ class StudentManagerView:
         return list_socre
 
     def __operate_sort(self,list_score):
+        """
+        根据学生分数进行冒泡排序
+        :param list_score:
+        :return:
+        """
+
         count = len(list_score)
         for i in range(count):
             for j in range(i+1,count):

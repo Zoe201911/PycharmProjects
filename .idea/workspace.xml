@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18ee70fe-8422-4dea-b904-a1bb2addec8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LearnDemo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnDemo/basicPractice/demo7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnDemo/basicPractice/demo8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnDemo/studentsInfo/Money.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnDemo/studentsInfo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnDemo/studentsInfo/info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnDemo/studentsInfo/student_manager_system.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnDemo/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDemo/basicPractice/demo11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnDemo/demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDemo/basicPractice/demo2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnDemo/demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDemo/basicPractice/demo3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnDemo/demo4.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDemo/basicPractice/demo4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnDemo/demo5.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDemo/basicPractice/demo5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnDemo/demo6.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDemo/basicPractice/demo6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnDemo/demo7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnDemo/studentsInfo/student_manager_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDemo/studentsInfo/student_manager_system.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/LearnDemo/studentsInfo/info.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="494">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -86,13 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LearnDemo/studentsInfo/student_manager_system.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="205" column="22" lean-forward="true" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="22" />
-              <folding>
-                <element signature="e#2686#2702#2" />
-                <element signature="e#3566#3644#0" />
-                <element signature="e#4058#4140#0" />
-              </folding>
+            <state relative-caret-position="413">
+              <caret line="230" column="11" lean-forward="true" selection-start-line="230" selection-start-column="11" selection-end-line="230" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -100,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../anaconda3/lib/python3.6/urllib/parse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="14991">
               <caret line="791" selection-start-line="791" selection-end-line="791" />
             </state>
           </provider>
@@ -201,7 +183,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="945" />
+    <option name="x" value="946" />
     <option name="y" value="23" />
     <option name="width" value="1614" />
     <option name="height" value="1329" />
@@ -409,9 +391,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="945" y="23" width="1614" height="1329" extended-state="0" />
+    <frame x="946" y="23" width="1614" height="1329" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16698053" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16698053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32991952" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -830,6 +813,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LearnDemo/studentsInfo/StudentManagerView.py" />
     <entry file="file://$PROJECT_DIR$/LearnDemo/basicPractice/demo3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1064">
@@ -865,6 +849,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LearnDemo/studentsInfo/info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../anaconda3/lib/python3.6/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14991">
+          <caret line="791" selection-start-line="791" selection-end-line="791" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../anaconda3/lib/python3.6/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5890">
@@ -879,32 +877,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnDemo/studentsInfo/StudentManagerView.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../anaconda3/lib/python3.6/urllib/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="791" selection-start-line="791" selection-end-line="791" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearnDemo/studentsInfo/info.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LearnDemo/studentsInfo/student_manager_system.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="205" column="22" lean-forward="true" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="22" />
-          <folding>
-            <element signature="e#2686#2702#2" />
-            <element signature="e#3566#3644#0" />
-            <element signature="e#4058#4140#0" />
-          </folding>
+        <state relative-caret-position="413">
+          <caret line="230" column="11" lean-forward="true" selection-start-line="230" selection-start-column="11" selection-end-line="230" selection-end-column="11" />
         </state>
       </provider>
     </entry>
